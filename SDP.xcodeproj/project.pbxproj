@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		588A0D1329371E150081BEAB /* SDPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588A0D1229371E150081BEAB /* SDPApp.swift */; };
+		588A0D1529371E150081BEAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588A0D1429371E150081BEAB /* ContentView.swift */; };
+		588A0D1729371E160081BEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588A0D1629371E160081BEAB /* Assets.xcassets */; };
+		588A0D1A29371E160081BEAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588A0D1929371E160081BEAB /* Preview Assets.xcassets */; };
+		588A0D2529371E170081BEAB /* SDPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588A0D2429371E170081BEAB /* SDPTests.swift */; };
+		588A0D2F29371E170081BEAB /* SDPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588A0D2E29371E170081BEAB /* SDPUITests.swift */; };
+		588A0D3129371E170081BEAB /* SDPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588A0D3029371E170081BEAB /* SDPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		588A0D2129371E170081BEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 588A0D0729371E150081BEAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 588A0D0E29371E150081BEAB;
+			remoteInfo = SDP;
+		};
+		588A0D2B29371E170081BEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 588A0D0729371E150081BEAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 588A0D0E29371E150081BEAB;
+			remoteInfo = SDP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		588A0D0F29371E150081BEAB /* SDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		588A0D1229371E150081BEAB /* SDPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDPApp.swift; sourceTree = "<group>"; };
+		588A0D1429371E150081BEAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		588A0D1629371E160081BEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		588A0D1929371E160081BEAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		588A0D1B29371E160081BEAB /* SDP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SDP.entitlements; sourceTree = "<group>"; };
+		588A0D2029371E170081BEAB /* SDPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		588A0D2429371E170081BEAB /* SDPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDPTests.swift; sourceTree = "<group>"; };
+		588A0D2A29371E170081BEAB /* SDPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		588A0D2E29371E170081BEAB /* SDPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDPUITests.swift; sourceTree = "<group>"; };
+		588A0D3029371E170081BEAB /* SDPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		588A0D0C29371E150081BEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588A0D1D29371E170081BEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588A0D2729371E170081BEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		588A0D0629371E150081BEAB = {
+			isa = PBXGroup;
+			children = (
+				588A0D1129371E150081BEAB /* SDP */,
+				588A0D2329371E170081BEAB /* SDPTests */,
+				588A0D2D29371E170081BEAB /* SDPUITests */,
+				588A0D1029371E150081BEAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		588A0D1029371E150081BEAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				588A0D0F29371E150081BEAB /* SDP.app */,
+				588A0D2029371E170081BEAB /* SDPTests.xctest */,
+				588A0D2A29371E170081BEAB /* SDPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		588A0D1129371E150081BEAB /* SDP */ = {
+			isa = PBXGroup;
+			children = (
+				588A0D1229371E150081BEAB /* SDPApp.swift */,
+				588A0D1429371E150081BEAB /* ContentView.swift */,
+				588A0D1629371E160081BEAB /* Assets.xcassets */,
+				588A0D1B29371E160081BEAB /* SDP.entitlements */,
+				588A0D1829371E160081BEAB /* Preview Content */,
+			);
+			path = SDP;
+			sourceTree = "<group>";
+		};
+		588A0D1829371E160081BEAB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				588A0D1929371E160081BEAB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		588A0D2329371E170081BEAB /* SDPTests */ = {
+			isa = PBXGroup;
+			children = (
+				588A0D2429371E170081BEAB /* SDPTests.swift */,
+			);
+			path = SDPTests;
+			sourceTree = "<group>";
+		};
+		588A0D2D29371E170081BEAB /* SDPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				588A0D2E29371E170081BEAB /* SDPUITests.swift */,
+				588A0D3029371E170081BEAB /* SDPUITestsLaunchTests.swift */,
+			);
+			path = SDPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		588A0D0E29371E150081BEAB /* SDP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588A0D3429371E170081BEAB /* Build configuration list for PBXNativeTarget "SDP" */;
+			buildPhases = (
+				588A0D0B29371E150081BEAB /* Sources */,
+				588A0D0C29371E150081BEAB /* Frameworks */,
+				588A0D0D29371E150081BEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDP;
+			productName = SDP;
+			productReference = 588A0D0F29371E150081BEAB /* SDP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		588A0D1F29371E170081BEAB /* SDPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588A0D3729371E170081BEAB /* Build configuration list for PBXNativeTarget "SDPTests" */;
+			buildPhases = (
+				588A0D1C29371E170081BEAB /* Sources */,
+				588A0D1D29371E170081BEAB /* Frameworks */,
+				588A0D1E29371E170081BEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				588A0D2229371E170081BEAB /* PBXTargetDependency */,
+			);
+			name = SDPTests;
+			productName = SDPTests;
+			productReference = 588A0D2029371E170081BEAB /* SDPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		588A0D2929371E170081BEAB /* SDPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588A0D3A29371E170081BEAB /* Build configuration list for PBXNativeTarget "SDPUITests" */;
+			buildPhases = (
+				588A0D2629371E170081BEAB /* Sources */,
+				588A0D2729371E170081BEAB /* Frameworks */,
+				588A0D2829371E170081BEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				588A0D2C29371E170081BEAB /* PBXTargetDependency */,
+			);
+			name = SDPUITests;
+			productName = SDPUITests;
+			productReference = 588A0D2A29371E170081BEAB /* SDPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		588A0D0729371E150081BEAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					588A0D0E29371E150081BEAB = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					588A0D1F29371E170081BEAB = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 588A0D0E29371E150081BEAB;
+					};
+					588A0D2929371E170081BEAB = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 588A0D0E29371E150081BEAB;
+					};
+				};
+			};
+			buildConfigurationList = 588A0D0A29371E150081BEAB /* Build configuration list for PBXProject "SDP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 588A0D0629371E150081BEAB;
+			productRefGroup = 588A0D1029371E150081BEAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				588A0D0E29371E150081BEAB /* SDP */,
+				588A0D1F29371E170081BEAB /* SDPTests */,
+				588A0D2929371E170081BEAB /* SDPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		588A0D0D29371E150081BEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588A0D1A29371E160081BEAB /* Preview Assets.xcassets in Resources */,
+				588A0D1729371E160081BEAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588A0D1E29371E170081BEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588A0D2829371E170081BEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		588A0D0B29371E150081BEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588A0D1529371E150081BEAB /* ContentView.swift in Sources */,
+				588A0D1329371E150081BEAB /* SDPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588A0D1C29371E170081BEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588A0D2529371E170081BEAB /* SDPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588A0D2629371E170081BEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588A0D3129371E170081BEAB /* SDPUITestsLaunchTests.swift in Sources */,
+				588A0D2F29371E170081BEAB /* SDPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		588A0D2229371E170081BEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 588A0D0E29371E150081BEAB /* SDP */;
+			targetProxy = 588A0D2129371E170081BEAB /* PBXContainerItemProxy */;
+		};
+		588A0D2C29371E170081BEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 588A0D0E29371E150081BEAB /* SDP */;
+			targetProxy = 588A0D2B29371E170081BEAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		588A0D3229371E170081BEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		588A0D3329371E170081BEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		588A0D3529371E170081BEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SDP/SDP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SDP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiva.SDP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		588A0D3629371E170081BEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SDP/SDP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SDP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiva.SDP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		588A0D3829371E170081BEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiva.SDPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SDP";
+			};
+			name = Debug;
+		};
+		588A0D3929371E170081BEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiva.SDPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SDP";
+			};
+			name = Release;
+		};
+		588A0D3B29371E170081BEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiva.SDPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SDP;
+			};
+			name = Debug;
+		};
+		588A0D3C29371E170081BEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiva.SDPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SDP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		588A0D0A29371E150081BEAB /* Build configuration list for PBXProject "SDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588A0D3229371E170081BEAB /* Debug */,
+				588A0D3329371E170081BEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		588A0D3429371E170081BEAB /* Build configuration list for PBXNativeTarget "SDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588A0D3529371E170081BEAB /* Debug */,
+				588A0D3629371E170081BEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		588A0D3729371E170081BEAB /* Build configuration list for PBXNativeTarget "SDPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588A0D3829371E170081BEAB /* Debug */,
+				588A0D3929371E170081BEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		588A0D3A29371E170081BEAB /* Build configuration list for PBXNativeTarget "SDPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588A0D3B29371E170081BEAB /* Debug */,
+				588A0D3C29371E170081BEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 588A0D0729371E150081BEAB /* Project object */;
+}
